@@ -15,6 +15,7 @@
     "@terraformer/wkt": "^2.1.2",
     "@turf/turf": "^6.5.0",
     "aws-amplify": "^5.0.12",
+    "classnames": "^2.3.2",
     "mapbox-gl": "^2.12.0",
     "maplibre-gl": "^2.4.0",
     "maplibre-gl-js-amplify": "^3.0.0",

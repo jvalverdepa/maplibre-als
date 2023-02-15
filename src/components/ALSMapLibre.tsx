@@ -45,9 +45,9 @@ Amplify.configure({
 });
 
 export const ALSMapLibre = ({ children }: PropsWithChildren) => {
-  const [longitude, setLng] = useState(-115.3150831);
-  const [latitude, setLat] = useState(36.1251958);
-  const [zoom, setZoom] = useState(11);
+  const [longitude, setLng] = useState(-115.16941236188154);
+  const [latitude, setLat] = useState(36.10755329156616);
+  const [zoom, setZoom] = useState(15.093100204633787);
 
   const geoConfig = useMemo(() => Geo.getDefaultMap() as MapStyle & { region: string }, []);
   const [transformRequest, setTransformRequest] =
